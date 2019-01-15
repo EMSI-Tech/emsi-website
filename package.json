@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "npm run build && npm run start:server",
+    "start": "echo \"check jenkins env ${API_KEY}\" && npm run build && npm run start:server",
     "start:server": "node emsi-server/index.js",
     "build": "npm run build:client && npm run build:admin",
     "build:client": "npm run build --prefix emsi-client",
