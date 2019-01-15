@@ -10,7 +10,8 @@
     "build:admin": "npm run build --prefix emsi-admin",
     "start-dev:server": "nodemon --watch emsi-server emsi-server/index.js",
     "start-dev:client": "PORT=3001 npm start --prefix emsi-client",
-    "start-dev:admin": "PORT=3002 npm start --prefix emsi-admin"
+    "start-dev:admin": "PORT=3002 npm start --prefix emsi-admin",
+    "preinstall": "npm install --prefix emsi-client && npm install --prefix emsi-admin"
   },
   "dependencies": {
     "express": "^4.16.4",
