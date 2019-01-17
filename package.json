@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "express": "^4.16.4",
-    "morgan": "^1.9.1"
+    "firebase-admin": "^6.5.0",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.3.0"
   },
   "devDependencies": {
     "create-react-app": "^2.1.3",
