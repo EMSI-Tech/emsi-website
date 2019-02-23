@@ -1,0 +1,1 @@
+making sure that a checkin to master does not force a jenkins project build which was only setup for dev branch.
