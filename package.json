@@ -13,6 +13,8 @@
     "start-dev:admin": "PORT=3002 npm start --prefix emsi-admin",
     "preinstall": "npm install --prefix emsi-client && npm install --prefix emsi-admin",
     "scss:rebuild": "npm rebuild --prefix emsi-client node-sass && npm rebuild --prefix emsi-admin node-sass",
+    "test": "echo 'execute unit tests'",
+    "e2e": "echo execute e2e tests",
     "docker:image": "docker build --tag=emsi-img .",
     "docker:container": "sh docker.sh",
     "docker:start": "npm run docker:cleanup && npm run docker:image && npm run docker:container",
