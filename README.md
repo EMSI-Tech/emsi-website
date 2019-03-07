@@ -1,3 +1,5 @@
+test
+
 # EMSI Website
 
 Evangelical Mission and Seminary International website is created using Google Maps API, Google Firebase APIs, NodeJS/Express, and React. The website contains a public view and an authenticated admin web content management dashboard. The development pipeline embraces CI/CD and uses Jenkins, Docker, and Digital Oceans to streamline and automate development and testing. 
